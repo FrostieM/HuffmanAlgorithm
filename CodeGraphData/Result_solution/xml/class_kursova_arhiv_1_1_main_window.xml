@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_main_window" kind="class" prot="public">
+    <compoundname>KursovaArhiv::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_main_window_1a2a6ec358eb9181de1bf127a593df60d9" prot="private" static="no" mutable="no">
+        <type>DispatcherTimer</type>
+        <definition>DispatcherTimer KursovaArhiv.MainWindow.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <initializer>= new DispatcherTimer()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="19" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_kursova_arhiv_1_1_main_window_1a4ab9eefbd3dbeae2cc94ebf6d7066c4a" compoundref="_main_window_8xaml_8cs" startline="34" endline="40">KursovaArhiv.MainWindow.ImageExit_MouseLeftButtonDown</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a1bc9a63d9ecc8b0aed7c14309fc549d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KursovaArhiv.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="21" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="21" bodyend="27"/>
+        <references refid="class_kursova_arhiv_1_1_main_window_1a6ed78c41ae7c1fe95a7597872b5f5a07" compoundref="_main_window_8xaml_8cs" startline="235" endline="249">KursovaArhiv.MainWindow.timer_Tick</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a9715d3356a422c271c98f59588a303d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.SystemMenu_MouseLeftButtonDown</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>SystemMenu_MouseLeftButtonDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="29" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a4ab9eefbd3dbeae2cc94ebf6d7066c4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ImageExit_MouseLeftButtonDown</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>ImageExit_MouseLeftButtonDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="34" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="34" bodyend="40"/>
+        <references refid="class_kursova_arhiv_1_1_main_window_1a2a6ec358eb9181de1bf127a593df60d9" compoundref="_main_window_8xaml_8cs" startline="19">KursovaArhiv.MainWindow.timer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a4eb226cb9397d793a67bde3cc3611cc0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ImageMinimize_MouseLeftButtonDown</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>ImageMinimize_MouseLeftButtonDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="42" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1afee166eb517c8bb4e7cd9753ca454cce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ZipButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ZipButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="47" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a1c5e1a2ab9eb3d3752b8de487e35f493" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.UnzipButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>UnzipButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="53" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a513e8c28fb7970a9ac4c8590e535ac9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ChoosePathButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ChoosePathButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="59" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="59" bodyend="62"/>
+        <references refid="class_kursova_arhiv_1_1_main_window_1a66a12137938979f8c96107686011520e" compoundref="_main_window_8xaml_8cs" startline="64" endline="75">KursovaArhiv.MainWindow.ClickChooseEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a66a12137938979f8c96107686011520e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ClickChooseEvent</definition>
+        <argsstring>(System.Windows.Controls.TextBox textBox)</argsstring>
+        <name>ClickChooseEvent</name>
+        <param>
+          <type>System.Windows.Controls.TextBox</type>
+          <declname>textBox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="64" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="64" bodyend="75"/>
+        <referencedby refid="class_kursova_arhiv_1_1_main_window_1a513e8c28fb7970a9ac4c8590e535ac9a" compoundref="_main_window_8xaml_8cs" startline="59" endline="62">KursovaArhiv.MainWindow.ChoosePathButton_Click</referencedby>
+        <referencedby refid="class_kursova_arhiv_1_1_main_window_1a4124306a14ddd3368736d0a45ea67ca6" compoundref="_main_window_8xaml_8cs" startline="151" endline="154">KursovaArhiv.MainWindow.UnzipPathChooseButton_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1afadfb477bf65524f0740726af3fe0166" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ZipPanelChoose_PreviewDragOver</definition>
+        <argsstring>(object sender, System.Windows.DragEventArgs e)</argsstring>
+        <name>ZipPanelChoose_PreviewDragOver</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.DragEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="77" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a3b03e452294ff38c9664f318c1ab829d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.DragDropTextBox_Drop</definition>
+        <argsstring>(object sender, System.Windows.DragEventArgs e)</argsstring>
+        <name>DragDropTextBox_Drop</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.DragEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="82" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="82" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a5d55b02a512ff17b6843c376179e8a1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ZipNextButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ZipNextButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="101" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="101" bodyend="143"/>
+        <references refid="class_kursova_arhiv_1_1_main_window_1a8a7536aa0d5962aca61857414b1a55c4" compoundref="_main_window_8xaml_8cs" startline="216" endline="226">KursovaArhiv.MainWindow.StartZip</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a42c0980c0694fd61f34a7f8a1ac5c76d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ZipbackButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ZipbackButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="145" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="145" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a4124306a14ddd3368736d0a45ea67ca6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.UnzipPathChooseButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>UnzipPathChooseButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="151" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="151" bodyend="154"/>
+        <references refid="class_kursova_arhiv_1_1_main_window_1a66a12137938979f8c96107686011520e" compoundref="_main_window_8xaml_8cs" startline="64" endline="75">KursovaArhiv.MainWindow.ClickChooseEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a0f6e5a6bcb94b5a4b7f2091bc6e90fd2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.UnzipFileChooseButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>UnzipFileChooseButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="156" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="156" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1aef2dae5ed6f3edf416cb838fd890644d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.UnzipNextButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>UnzipNextButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="168" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="168" bodyend="193"/>
+        <references refid="class_kursova_arhiv_1_1_main_window_1a226c79320c69cdab003fdd7d199f01ac" compoundref="_main_window_8xaml_8cs" startline="228" endline="233">KursovaArhiv.MainWindow.StartUnzip</references>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1ab07550ccff106d9ba25562f842219bf2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.UnzipBackButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>UnzipBackButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="195" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="195" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a7c062b441284b559136b6b90a3530eca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ExecuteBackButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ExecuteBackButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="201" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="201" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1af70fd4e0207deedb472c42569528f043" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.ExecuteExitButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ExecuteExitButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="211" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a6ed78c41ae7c1fe95a7597872b5f5a07" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.MainWindow.timer_Tick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>timer_Tick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="235" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="235" bodyend="249"/>
+        <referencedby refid="class_kursova_arhiv_1_1_main_window_1a1bc9a63d9ecc8b0aed7c14309fc549d8" compoundref="_main_window_8xaml_8cs" startline="21" endline="27">KursovaArhiv.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a8a7536aa0d5962aca61857414b1a55c4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void KursovaArhiv.MainWindow.StartZip</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>StartZip</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="216" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="216" bodyend="226"/>
+        <referencedby refid="class_kursova_arhiv_1_1_main_window_1a5d55b02a512ff17b6843c376179e8a1b" compoundref="_main_window_8xaml_8cs" startline="101" endline="143">KursovaArhiv.MainWindow.ZipNextButton_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_main_window_1a226c79320c69cdab003fdd7d199f01ac" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void KursovaArhiv.MainWindow.StartUnzip</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>StartUnzip</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="228" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="228" bodyend="233"/>
+        <referencedby refid="class_kursova_arhiv_1_1_main_window_1aef2dae5ed6f3edf416cb838fd890644d" compoundref="_main_window_8xaml_8cs" startline="168" endline="193">KursovaArhiv.MainWindow.UnzipNextButton_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Логика взаимодействия для MainWindow.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>Window</label>
+      </node>
+      <node id="15">
+        <label>KursovaArhiv.MainWindow</label>
+        <link refid="class_kursova_arhiv_1_1_main_window"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>Window</label>
+      </node>
+      <node id="17">
+        <label>KursovaArhiv.MainWindow</label>
+        <link refid="class_kursova_arhiv_1_1_main_window"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" line="18" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/MainWindow.xaml.cs" bodystart="17" bodyend="250"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a513e8c28fb7970a9ac4c8590e535ac9a" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ChoosePathButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a66a12137938979f8c96107686011520e" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ClickChooseEvent</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a3b03e452294ff38c9664f318c1ab829d" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>DragDropTextBox_Drop</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a7c062b441284b559136b6b90a3530eca" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ExecuteBackButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1af70fd4e0207deedb472c42569528f043" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ExecuteExitButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a4ab9eefbd3dbeae2cc94ebf6d7066c4a" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ImageExit_MouseLeftButtonDown</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a4eb226cb9397d793a67bde3cc3611cc0" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ImageMinimize_MouseLeftButtonDown</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a1bc9a63d9ecc8b0aed7c14309fc549d8" prot="public" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a226c79320c69cdab003fdd7d199f01ac" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>StartUnzip</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a8a7536aa0d5962aca61857414b1a55c4" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>StartZip</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a9715d3356a422c271c98f59588a303d3" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>SystemMenu_MouseLeftButtonDown</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a2a6ec358eb9181de1bf127a593df60d9" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>timer</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a6ed78c41ae7c1fe95a7597872b5f5a07" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>timer_Tick</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1ab07550ccff106d9ba25562f842219bf2" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>UnzipBackButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a1c5e1a2ab9eb3d3752b8de487e35f493" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>UnzipButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a0f6e5a6bcb94b5a4b7f2091bc6e90fd2" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>UnzipFileChooseButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1aef2dae5ed6f3edf416cb838fd890644d" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>UnzipNextButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a4124306a14ddd3368736d0a45ea67ca6" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>UnzipPathChooseButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a42c0980c0694fd61f34a7f8a1ac5c76d" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ZipbackButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1afee166eb517c8bb4e7cd9753ca454cce" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ZipButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1a5d55b02a512ff17b6843c376179e8a1b" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ZipNextButton_Click</name></member>
+      <member refid="class_kursova_arhiv_1_1_main_window_1afadfb477bf65524f0740726af3fe0166" prot="private" virt="non-virtual"><scope>KursovaArhiv::MainWindow</scope><name>ZipPanelChoose_PreviewDragOver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

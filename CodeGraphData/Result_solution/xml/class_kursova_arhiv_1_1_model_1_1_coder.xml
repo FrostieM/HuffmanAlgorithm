@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_model_1_1_coder" kind="class" prot="package">
+    <compoundname>KursovaArhiv::Model::Coder</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_model_1_1_coder_1a4fefd7fb2d2ad145c775fdefd849b1ca" prot="private" static="no" mutable="no">
+        <type><ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref></type>
+        <definition>HuffmanAlgorithmTree KursovaArhiv.Model.Coder._tree</definition>
+        <argsstring></argsstring>
+        <name>_tree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="19" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a5f3ca4a26f6b9c5db8afd5076082088f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.Coder.ZipHuffman</definition>
+        <argsstring>(string path, string fileName, params string[] files)</argsstring>
+        <name>ZipHuffman</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="21" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="21" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a793ba220946b9a3839d636aac14f2116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.Coder.UnpackHuffman</definition>
+        <argsstring>(string path, string file)</argsstring>
+        <name>UnpackHuffman</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="49" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="49" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1ade739885bf1ff756f7683ba00e48ceb8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>static List&lt;string&gt; KursovaArhiv.Model.Coder.GetOnlyFiles</definition>
+        <argsstring>(IEnumerable&lt; string &gt; files)</argsstring>
+        <name>GetOnlyFiles</name>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="82" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="82" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1ab43cbd43907d9b72605d37089f364aee" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void KursovaArhiv.Model.Coder.WriteTree</definition>
+        <argsstring>(BinaryWriter writer, string treeFileName)</argsstring>
+        <name>WriteTree</name>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>treeFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="149" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="149" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1ad8d5ef29b0d0c978eba75cfb16fd5f82" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string KursovaArhiv.Model.Coder.TakeFileName</definition>
+        <argsstring>(string file)</argsstring>
+        <name>TakeFileName</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="171" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="171" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1ab4e385e440789cb16e1ae75b4cfe97c9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void KursovaArhiv.Model.Coder.WriteInBuffer</definition>
+        <argsstring>(out byte[] buffer, ref long length, BinaryReader reader)</argsstring>
+        <name>WriteInBuffer</name>
+        <param>
+          <type>out byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>ref long</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="178" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="178" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a1dd7b29875e7a8eb473117ef461db08f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] KursovaArhiv.Model.Coder.CreateByteArray</definition>
+        <argsstring>(long size)</argsstring>
+        <name>CreateByteArray</name>
+        <param>
+          <type>long</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="185" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1ad7dd7c5539438b029923cf091c326302" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; bool &gt;</type>
+        <definition>static List&lt;bool&gt; KursovaArhiv.Model.Coder.BitArrayToByteArray</definition>
+        <argsstring>(List&lt; bool &gt; bits, out byte[] outBytes, List&lt; bool &gt; lastNotFullByte)</argsstring>
+        <name>BitArrayToByteArray</name>
+        <param>
+          <type>List&lt; bool &gt;</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>out byte[]</type>
+          <declname>outBytes</declname>
+        </param>
+        <param>
+          <type>List&lt; bool &gt;</type>
+          <declname>lastNotFullByte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="319" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="319" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a7c6ffc78b542d185ac8376e116148a98" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] KursovaArhiv.Model.Coder.PuckBitsInByte</definition>
+        <argsstring>(IReadOnlyList&lt; bool &gt; boolArr, int outRange)</argsstring>
+        <name>PuckBitsInByte</name>
+        <param>
+          <type>IReadOnlyList&lt; bool &gt;</type>
+          <declname>boolArr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>outRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="342" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="342" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a562e73cff7350ac7465b4445e66f16b2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] KursovaArhiv.Model.Coder.MoveNotFullBitsToLeft</definition>
+        <argsstring>(IReadOnlyList&lt; bool &gt; bits)</argsstring>
+        <name>MoveNotFullBitsToLeft</name>
+        <param>
+          <type>IReadOnlyList&lt; bool &gt;</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="357" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="357" bodyend="371"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a7d2a92261b3b14110f3cc4d803536f16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string KursovaArhiv.Model.Coder.BuildTree</definition>
+        <argsstring>(IEnumerable&lt; string &gt; files)</argsstring>
+        <name>BuildTree</name>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="102" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="102" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a13f873f14befb12bdcc63d24983bba73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; char, long &gt;</type>
+        <definition>Dictionary&lt;char, long&gt; KursovaArhiv.Model.Coder.CalcSymbolFreq</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>CalcSymbolFreq</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="124" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="124" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1afcdbb61374b53b2ef518fd905a36ff50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.Coder.ReadTree</definition>
+        <argsstring>(BinaryReader reader, int size)</argsstring>
+        <name>ReadTree</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="157" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="157" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a8c27d800bd3877dcd37d2a10bbf92abb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.Coder.CreateEncodeFiles</definition>
+        <argsstring>(string file, BinaryWriter writer)</argsstring>
+        <name>CreateEncodeFiles</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="190" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="190" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a383f56d16abd47ecb2bb9a99a09c00b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.Coder.CreateDecodeFiles</definition>
+        <argsstring>(BinaryReader reader, string dirName)</argsstring>
+        <name>CreateDecodeFiles</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dirName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="220" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="220" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a707f7cbc448343712ed482543c3091d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.Coder.EncodeFile</definition>
+        <argsstring>(string file, BinaryWriter writer)</argsstring>
+        <name>EncodeFile</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="255" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="255" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a6044fe1670db152dc6a1bb00f310b17f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string KursovaArhiv.Model.Coder.EncodeFile</definition>
+        <argsstring>(string file)</argsstring>
+        <name>EncodeFile</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="279" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="279" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_coder_1a7728e51598176d8e99c5c1f38ee94c37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.Coder.DecodeFile</definition>
+        <argsstring>(BinaryReader reader, string fileName, ref long fileSize)</argsstring>
+        <name>DecodeFile</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>ref long</type>
+          <declname>fileSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="306" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="306" bodyend="318"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>KursovaArhiv.Model.HuffmanAlgorithmTree</label>
+        <link refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_root</edgelabel>
+          <edgelabel>_currentRoot</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>KursovaArhiv.Model.HuffmanAlgorithmTree.Node</label>
+        <link refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node"/>
+      </node>
+      <node id="5">
+        <label>KursovaArhiv.Model.Coder</label>
+        <link refid="class_kursova_arhiv_1_1_model_1_1_coder"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_tree</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="18" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="17" bodyend="372"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a4fefd7fb2d2ad145c775fdefd849b1ca" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>_tree</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1ad7dd7c5539438b029923cf091c326302" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>BitArrayToByteArray</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a7d2a92261b3b14110f3cc4d803536f16" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>BuildTree</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a13f873f14befb12bdcc63d24983bba73" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>CalcSymbolFreq</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a1dd7b29875e7a8eb473117ef461db08f" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>CreateByteArray</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a383f56d16abd47ecb2bb9a99a09c00b4" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>CreateDecodeFiles</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a8c27d800bd3877dcd37d2a10bbf92abb" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>CreateEncodeFiles</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a7728e51598176d8e99c5c1f38ee94c37" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>DecodeFile</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a707f7cbc448343712ed482543c3091d7" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>EncodeFile</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a6044fe1670db152dc6a1bb00f310b17f" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>EncodeFile</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1ade739885bf1ff756f7683ba00e48ceb8" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>GetOnlyFiles</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a562e73cff7350ac7465b4445e66f16b2" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>MoveNotFullBitsToLeft</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a7c6ffc78b542d185ac8376e116148a98" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>PuckBitsInByte</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1afcdbb61374b53b2ef518fd905a36ff50" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>ReadTree</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1ad8d5ef29b0d0c978eba75cfb16fd5f82" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>TakeFileName</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a793ba220946b9a3839d636aac14f2116" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>UnpackHuffman</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1ab4e385e440789cb16e1ae75b4cfe97c9" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>WriteInBuffer</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1ab43cbd43907d9b72605d37089f364aee" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>WriteTree</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_coder_1a5f3ca4a26f6b9c5db8afd5076082088f" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::Coder</scope><name>ZipHuffman</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_kursova_arhiv_1_1_model" kind="namespace">
+    <compoundname>KursovaArhiv::Model</compoundname>
+    <innerclass refid="class_kursova_arhiv_1_1_model_1_1_coder" prot="package">KursovaArhiv::Model::Coder</innerclass>
+    <innerclass refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree" prot="package">KursovaArhiv::Model::HuffmanAlgorithmTree</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_kursova_arhiv_1_1_model_1af6ac1a8a11125d2d16066964b60aa850" prot="public" static="no">
+        <name>MAX_VALUE</name>
+        <enumvalue id="namespace_kursova_arhiv_1_1_model_1af6ac1a8a11125d2d16066964b60aa850ac75e2054ac327be35c5cccea5e870d72" prot="public">
+          <name>BLOCK_SIZE</name>
+          <initializer>= 256</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="13" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/Coder.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

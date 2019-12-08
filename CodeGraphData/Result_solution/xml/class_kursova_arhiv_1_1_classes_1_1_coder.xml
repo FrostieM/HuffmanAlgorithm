@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_classes_1_1_coder" kind="class" prot="public">
+    <compoundname>KursovaArhiv::Classes::Coder</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a54e11ab1fd73f075b8c04b0d3ea6babd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref></type>
+        <definition>HuffmanAlgorithmTree KursovaArhiv.Classes.Coder.tree</definition>
+        <argsstring></argsstring>
+        <name>tree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="17" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1ad194f993dcc2e9c999493b34b5a6fde1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.ZipHuffman</definition>
+        <argsstring>(string path, string fileName, params string[] files)</argsstring>
+        <name>ZipHuffman</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+<para>Реализовывает запаковку файлов в один, через алгоритм Хаффмана. Происходит создание объекта <ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref>, и сериализация его в файл, с указанием ключевых байтов которые будут записаны в самом начале, и будут нести информацию что это сериализованный объект, и его количество байтов. Дальше будет происходит запись файла или директории в файл. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь куда будет записан файл</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя файла</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>files</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив файлов и директорий, которые будут запакованы</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="28" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="28" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a581fe1db229c0c2830ade1c4b8aed520" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.UnpackHuffman</definition>
+        <argsstring>(string path, string file)</argsstring>
+        <name>UnpackHuffman</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Реализовывает распаковку файла. В файле находится сначала сериализованный объект <ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref>, который будет считан и записан в новый файл и десериализован. После будет выполнятся поиск ключевых слов, которые будут указывать какие данные будут в следующих байтах. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь куда будет записана директория</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Файл, который будет считан</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="63" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="63" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1ae56e5903a3b4aadfbabc717f5f521fa2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; KursovaArhiv.Classes.Coder.GetOnlyFiles</definition>
+        <argsstring>(string[] files)</argsstring>
+        <name>GetOnlyFiles</name>
+        <param>
+          <type>string[]</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+<para>Функция выполняет поиск файлов по директориям </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>files</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="100" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="100" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a824e8957c3caec0109c6df998a36cdf7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string KursovaArhiv.Classes.Coder.BuilTree</definition>
+        <argsstring>(string[] files)</argsstring>
+        <name>BuilTree</name>
+        <param>
+          <type>string[]</type>
+          <declname>files</declname>
+        </param>
+        <briefdescription>
+<para>Объект <ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref> строит дерево, в котором будут содержаться уникальные символы и их частота появления в тексте. После чего сериализует объект <ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>files</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив файлов, которые нужно прочитать и создать дерево на основе полученной информации, для последующего сжатия</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает имя сериализованного объекта <ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref>, для последующей записи в файл.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="128" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="128" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a038f3d087434aad20dde46cf3120f40b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.WriteTree</definition>
+        <argsstring>(BinaryWriter writer, string treeFileName)</argsstring>
+        <name>WriteTree</name>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>treeFileName</declname>
+        </param>
+        <briefdescription>
+<para>Данная функция выполняет запись ключевого слова tjat, которое будет означать что в последующих байтах будет сериализованный объект <ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref> и его размер. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Основной поток записи файла</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>treeFileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь к сериализованному объекту</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="163" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="163" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a82566068bf1766ec353187cb8506a206" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.ReadTree</definition>
+        <argsstring>(BinaryReader reader, int size)</argsstring>
+        <name>ReadTree</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Десиреализует объект <ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree" kindref="compound">HuffmanAlgorithmTree</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reader</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Основной поток чтения</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер байтов, которые надо считать</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="176" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="176" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a5f9557b7e5906277f71ecca2bfe218d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string KursovaArhiv.Classes.Coder.TakeFileName</definition>
+        <argsstring>(string file)</argsstring>
+        <name>TakeFileName</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Из полного пути файла возвращает его имя </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Полное путь к файлу</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает имя файла</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="195" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a6b89ed951bf617bf958a8a653d5d6541" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.WriteInBuffer</definition>
+        <argsstring>(out byte[] buffer, ref long lengh, BinaryReader reader)</argsstring>
+        <name>WriteInBuffer</name>
+        <param>
+          <type>out byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>ref long</type>
+          <declname>lengh</declname>
+        </param>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+<para>Считывает байты из потока и записывает в массив </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив байт куда будет записана информация</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lengh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер файла, который осталось считать</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reader</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Поток чтения файла</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="208" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="208" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1ac00ac88e1ff61e03ff3da682bf3f1fbe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] KursovaArhiv.Classes.Coder.CreateByteArray</definition>
+        <argsstring>(long size)</argsstring>
+        <name>CreateByteArray</name>
+        <param>
+          <type>long</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Создает блок байтов определенного размера. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер файла, который осталось считать</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает массив байт</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="220" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="220" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a65848ea56f45ff04a0d5ef2d72b019ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.CreateEncodeFiles</definition>
+        <argsstring>(string file, BinaryWriter writer)</argsstring>
+        <name>CreateEncodeFiles</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+<para>Функция, которая выполняет запись иерархической структуры. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Файл или директория</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Основной поток записи</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="235" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="235" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1aa0c991d19d01351a6e138f14f69e436b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.CreateDecodeFiles</definition>
+        <argsstring>(BinaryReader reader, string dirName)</argsstring>
+        <name>CreateDecodeFiles</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dirName</declname>
+        </param>
+        <briefdescription>
+<para>Функция выполняющая считывания закодированного файла, и его распаковку </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reader</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Основной поток чтения</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dirName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Директория, в которой будет выполняться распаковка</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="270" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="270" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1aaaf33c049a7d009eeb2756bd41ad3e69" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.EncodeFile</definition>
+        <argsstring>(string file, BinaryWriter writer)</argsstring>
+        <name>EncodeFile</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>BinaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+<para>Функция считывает файл, и кодирует его. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя файла</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>writer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Основной поток записи</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="310" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="310" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a1bdba4e954328113bec7abf53bcddc08" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string KursovaArhiv.Classes.Coder.EncodeFile</definition>
+        <argsstring>(string file)</argsstring>
+        <name>EncodeFile</name>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Функция кодирует файла </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя считывающего файла</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает путь к закодированому файлу</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="339" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="339" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a9f80591b646a5b78cc91ecf31f24e358" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Classes.Coder.DecodeFile</definition>
+        <argsstring>(BinaryReader reader, string fileName, ref long fileSize)</argsstring>
+        <name>DecodeFile</name>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>ref long</type>
+          <declname>fileSize</declname>
+        </param>
+        <briefdescription>
+<para>Функция выполняет декодировку файла </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reader</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Основной поток считывания</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя файла</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер байт, которые нужно считать</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="372" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="372" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a5c24ca4af6033ff89a1d4f7dce2c89a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; bool &gt;</type>
+        <definition>List&lt;bool&gt; KursovaArhiv.Classes.Coder.BitArrayToByteArray</definition>
+        <argsstring>(List&lt; bool &gt; bits, out byte[] outBytes, List&lt; bool &gt; lastNotFullByte)</argsstring>
+        <name>BitArrayToByteArray</name>
+        <param>
+          <type>List&lt; bool &gt;</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>out byte[]</type>
+          <declname>outBytes</declname>
+        </param>
+        <param>
+          <type>List&lt; bool &gt;</type>
+          <declname>lastNotFullByte</declname>
+        </param>
+        <briefdescription>
+<para>Функция массив битов переводит в байты, для сжатия информации </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив кодирующих битов</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outBytes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив байт, в которые будет производиться запись</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lastNotFullByte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив битов, которые не поместились в байт в прошлый раз</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает массив битов, которые не поместились в байт</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="393" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="393" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1a363e1080a9f31d82f4779dfed373458a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] KursovaArhiv.Classes.Coder.PackBoolsInByte</definition>
+        <argsstring>(bool[] bools, int outRange)</argsstring>
+        <name>PackBoolsInByte</name>
+        <param>
+          <type>bool[]</type>
+          <declname>bools</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>outRange</declname>
+        </param>
+        <briefdescription>
+<para>Производит упаковку битов в байты </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bools</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив битов</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outRange</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Количество неполных битов, которые нужно не записывать</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="427" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="427" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_coder_1aab933b24037c11572607f50bb0cb5e83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] KursovaArhiv.Classes.Coder.MoveNotFullBitsToLeft</definition>
+        <argsstring>(List&lt; bool &gt; bits)</argsstring>
+        <name>MoveNotFullBitsToLeft</name>
+        <param>
+          <type>List&lt; bool &gt;</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+<para>Функция выполняет запись неполного байта, и указывает в последнем байте количество битов, которые не нужно считывать </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив битов</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает последние байты в файле</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="448" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="448" bodyend="462"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>KursovaArhiv.Classes.HuffmanAlgorithmTree.Node</label>
+        <link refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node"/>
+      </node>
+      <node id="6">
+        <label>KursovaArhiv.Classes.HuffmanAlgorithmTree</label>
+        <link refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_root</edgelabel>
+          <edgelabel>_currentRoot</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>KursovaArhiv.Classes.Coder</label>
+        <link refid="class_kursova_arhiv_1_1_classes_1_1_coder"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>tree</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" line="16" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/Coder.cs" bodystart="15" bodyend="463"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a5c24ca4af6033ff89a1d4f7dce2c89a7" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>BitArrayToByteArray</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a824e8957c3caec0109c6df998a36cdf7" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>BuilTree</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1ac00ac88e1ff61e03ff3da682bf3f1fbe" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>CreateByteArray</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1aa0c991d19d01351a6e138f14f69e436b" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>CreateDecodeFiles</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a65848ea56f45ff04a0d5ef2d72b019ce" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>CreateEncodeFiles</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a9f80591b646a5b78cc91ecf31f24e358" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>DecodeFile</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1aaaf33c049a7d009eeb2756bd41ad3e69" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>EncodeFile</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a1bdba4e954328113bec7abf53bcddc08" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>EncodeFile</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1ae56e5903a3b4aadfbabc717f5f521fa2" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>GetOnlyFiles</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1aab933b24037c11572607f50bb0cb5e83" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>MoveNotFullBitsToLeft</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a363e1080a9f31d82f4779dfed373458a" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>PackBoolsInByte</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a82566068bf1766ec353187cb8506a206" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>ReadTree</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a5f9557b7e5906277f71ecca2bfe218d1" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>TakeFileName</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a54e11ab1fd73f075b8c04b0d3ea6babd" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>tree</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a581fe1db229c0c2830ade1c4b8aed520" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>UnpackHuffman</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a6b89ed951bf617bf958a8a653d5d6541" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>WriteInBuffer</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1a038f3d087434aad20dde46cf3120f40b" prot="private" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>WriteTree</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_coder_1ad194f993dcc2e9c999493b34b5a6fde1" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::Coder</scope><name>ZipHuffman</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

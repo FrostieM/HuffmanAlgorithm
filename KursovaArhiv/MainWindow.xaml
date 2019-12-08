@@ -1,0 +1,123 @@
+﻿<Window x:Class="KursovaArhiv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovaArhiv"
+        mc:Ignorable="d" Height="400" Width="600" ResizeMode="NoResize" WindowStartupLocation="Manual" WindowStyle="None" Foreground="Black" AllowDrop="True">
+    <Window.Background>
+        <SolidColorBrush Color="#FD727380"/>
+    </Window.Background>
+    
+    <Grid HorizontalAlignment="Left" Height="400" Margin="0,0,0,0" VerticalAlignment="Top" Width="600" AllowDrop="True">
+        <WrapPanel HorizontalAlignment="Center" Height="27" VerticalAlignment="Top" Width="600" Background="#FFE27E2A" Opacity="0.8" x:Name="SystemMenu" MouseLeftButtonDown="SystemMenu_MouseLeftButtonDown">
+            <WrapPanel.Effect>
+                <DropShadowEffect Opacity="0.6" Direction="600" ShadowDepth="3"/>
+            </WrapPanel.Effect>
+            <Image x:Name="ImageProgram" Height="25" Width="25" Margin="3,2,0,0" Source="Images/MainIconProgram.png"/>
+            <Image x:Name="ImageMinimize" Height="25" Width="25" Margin="506,2,0,0" Source="Images/Minimize.png" MouseLeftButtonDown="ImageMinimize_MouseLeftButtonDown" Cursor="Hand"/>
+            <Image x:Name="ImageExit" Height="25" Width="25" Margin="10,2,0,0" Source="Images/close.png" MouseLeftButtonDown="ImageExit_MouseLeftButtonDown" Cursor="Hand" />
+        </WrapPanel>
+        <DockPanel x:Name="ChoosePanel" HorizontalAlignment="Left" Height="368" LastChildFill="False" Margin="100,32,0,0" VerticalAlignment="Top" Width="400">
+            <Button x:Name="ZipButton" Content="Запаковать файлы" Height="100" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="90,0" Cursor="Hand" BorderBrush="#FF1F0D8F" Background="#FFCB7B1B" FontSize="18" FontFamily="Segoe Print" BorderThickness="2" Click="ZipButton_Click" RenderTransformOrigin="0.573,0.63">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="23" Direction="320" Opacity="0.7" RenderingBias="Quality" ShadowDepth="14"/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="UnzipButton" Content="Распаковать файлы" Height="100" VerticalAlignment="Top" DockPanel.Dock="Bottom" Margin="90,0,90,5" Cursor="Hand" BorderBrush="#FF1F0D8F" Background="#FFCB7B1B" FontSize="18" FontFamily="Segoe Print" BorderThickness="2" Click="UnzipButton_Click">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="23" Direction="320" Opacity="0.7" RenderingBias="Quality" ShadowDepth="14"/>
+                </Button.Effect>
+            </Button>
+        </DockPanel>
+        <DockPanel x:Name="ZipPanelChoose" HorizontalAlignment="Left" Height="368" LastChildFill="False" Margin="100,32,0,0" VerticalAlignment="Top" Width="400" AllowDrop="True" PreviewDragOver="ZipPanelChoose_PreviewDragOver" Visibility="Hidden">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Введите имя файла" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="140,50,140,0" FontFamily="Global Sans Serif"/>
+            <TextBox x:Name="FileTextBox" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="120,5,120,0" MaxLength="20" MaxLines="1" Background="#FFE27E2A" SelectionBrush="#FF2E76AE" BorderBrush="#FF0732B2">
+                <TextBox.Effect>
+                    <DropShadowEffect Opacity="0.8" BlurRadius="15" ShadowDepth="6"/>
+                </TextBox.Effect>
+            </TextBox>
+            <TextBlock x:Name="textBlock_Copy" TextWrapping="Wrap" Text="Выберете директорию для файла" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="105,10,105,0" FontFamily="Global Sans Serif"/>
+            <TextBox x:Name="PathTextBox" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="50,5,50,0" MaxLines="1" Background="#FFE27E2A" IsReadOnly="True" Cursor="Arrow">
+                <TextBox.Effect>
+                    <DropShadowEffect BlurRadius="16" ShadowDepth="6"/>
+                </TextBox.Effect>
+            </TextBox>
+            <Button x:Name="ChoosePathButton" Content="..." Height="20" VerticalAlignment="Top" Width="24" DockPanel.Dock="Right" Margin="0,-20,25,0" Background="#FFE27E2A" Click="ChoosePathButton_Click" Cursor="Hand">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+            <TextBlock x:Name="textBlock_Copy1" TextWrapping="Wrap" Text="Перетащите файлы" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="140,10,71,0" FontFamily="Global Sans Serif"/>
+            <TextBox x:Name="DragDropTextBox" Height="164" TextWrapping="Wrap" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="10,5,-39,0" MaxLines="2147483600" Background="#FFE27E2A" IsReadOnly="True" Drop="DragDropTextBox_Drop" Cursor="Arrow">
+                <TextBox.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </TextBox.Effect>
+            </TextBox>
+            <Button x:Name="ZipNextButton" Content="Дальше" Height="20" VerticalAlignment="Top" Width="52" DockPanel.Dock="Right" Margin="0,7,-38,0" Background="#FFE27E2A" FontFamily="Segoe UI Semibold" Cursor="Hand" Click="ZipNextButton_Click">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="ZipbackButton" Content="Назад" Height="20" VerticalAlignment="Top" Width="52" DockPanel.Dock="Right" Margin="0,7,275,0" Background="#FFE27E2A" FontFamily="Segoe UI Semibold" Cursor="Hand" Click="ZipbackButton_Click">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+        </DockPanel>
+        <DockPanel x:Name="UnzipPanelChoose" HorizontalAlignment="Left" Height="368" LastChildFill="False" Margin="100,32,0,0" VerticalAlignment="Top" Width="400" AllowDrop="True" PreviewDragOver="ZipPanelChoose_PreviewDragOver" Visibility="Hidden">
+            <TextBlock x:Name="textBlock_Copy2" TextWrapping="Wrap" Text="Выберете директорию для распаковки" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="90,100,90,0" FontFamily="Global Sans Serif"/>
+            <TextBox x:Name="UnzipPathTextBox" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="50,5,50,0" MaxLines="1" Background="#FFE27E2A" IsReadOnly="True" Cursor="Arrow">
+                <TextBox.Effect>
+                    <DropShadowEffect BlurRadius="16" ShadowDepth="6"/>
+                </TextBox.Effect>
+            </TextBox>
+            <Button x:Name="UnzipPathChooseButton" Content="..." Height="20" VerticalAlignment="Top" Width="24" DockPanel.Dock="Right" Margin="0,-20,25,0" Background="#FFE27E2A" Click="UnzipPathChooseButton_Click" Cursor="Hand">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+            <TextBlock x:Name="textBlock_Copy3" TextWrapping="Wrap" Text="Выберете файл для распаковки" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="117,10,41,0" FontFamily="Global Sans Serif"/>
+            <TextBox x:Name="UnzipFileTextBox" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="50,5,1,0" MaxLines="1" Background="#FFE27E2A" IsReadOnly="True" Cursor="Arrow">
+                <TextBox.Effect>
+                    <DropShadowEffect BlurRadius="16" ShadowDepth="6"/>
+                </TextBox.Effect>
+            </TextBox>
+            <Button x:Name="UnzipFileChooseButton" Content="..." Height="20" VerticalAlignment="Top" Width="24" DockPanel.Dock="Right" Margin="0,-20,-26,0" Background="#FFE27E2A" Click="UnzipFileChooseButton_Click" Cursor="Hand">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="UnzipNextButton" Content="Дальше" Height="20" VerticalAlignment="Top" Width="51" DockPanel.Dock="Right" Margin="0,13,-24,0" Background="#FFE27E2A" FontFamily="Segoe UI Semibold" Click="UnzipNextButton_Click" Cursor="Hand">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="UnzipBackButton" Content="Назад" Height="20" VerticalAlignment="Top" Width="51" DockPanel.Dock="Right" Margin="0,13,223,0" Background="#FFE27E2A" FontFamily="Segoe UI Semibold" Click="UnzipBackButton_Click" Cursor="Hand">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+        </DockPanel>
+        <DockPanel x:Name="ExecutePanel" HorizontalAlignment="Left" Height="368" LastChildFill="False" Margin="100,32,0,0" VerticalAlignment="Top" Width="400" Visibility="Hidden">
+            <TextBox x:Name="ExecuteTextBox" Height="232" TextWrapping="Wrap" VerticalAlignment="Top" DockPanel.Dock="Top" Margin="10,5,10,0" MaxLines="2147483600" Background="#FFE27E2A" IsReadOnly="True" Cursor="Arrow">
+                <TextBox.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </TextBox.Effect>
+            </TextBox>
+            <ProgressBar x:Name="ExecuteProgressBar" Height="20" VerticalAlignment="Top" Width="394" Margin="3,9,0,0" Background="#FFE27E2A" Foreground="#FF061DB0" BorderBrush="#FF4F4E4E"/>
+            <Button x:Name="ExecuteExitButton" Content="Завершить" Height="20" VerticalAlignment="Top" Width="78" DockPanel.Dock="Right" Margin="-96,58,0,0" Background="#FFE27E2A" FontFamily="Segoe UI Semibold" Cursor="Hand" Click="ExecuteExitButton_Click" Visibility="Hidden">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="ExecuteBackButton" Content="Вернуться" Height="20" VerticalAlignment="Top" Width="78" DockPanel.Dock="Right" Margin="-700,58,0,0" Background="#FFE27E2A" FontFamily="Segoe UI Semibold" Cursor="Hand" Click="ExecuteBackButton_Click" Visibility="Hidden">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+        </DockPanel>
+    </Grid>
+
+</Window>
+    

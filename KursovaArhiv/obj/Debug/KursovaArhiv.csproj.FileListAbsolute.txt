@@ -1,0 +1,75 @@
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe.config
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.pdb
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csprojAssemblyReference.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.g.cs
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\App.g.cs
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.lref
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.baml
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.g.resources
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.Properties.Resources.resources
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.GenerateResource.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.CoreCompileInputs.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.exe
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.pdb
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe.config
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.pdb
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csprojAssemblyReference.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.g.cs
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\App.g.cs
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.lref
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.baml
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.g.resources
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.Properties.Resources.resources
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.GenerateResource.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.CoreCompileInputs.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.exe
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.pdb
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe.config
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.pdb
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csprojAssemblyReference.cache
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.g.cs
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\App.g.cs
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.cache
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.lref
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.baml
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.g.resources
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.Properties.Resources.resources
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.GenerateResource.cache
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.CoreCompileInputs.cache
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.exe
+C:\Users\makso\Desktop\CloudSave\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.pdb
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe.config
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.exe
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\bin\Debug\KursovaArhiv.pdb
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csprojAssemblyReference.cache
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.g.cs
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\App.g.cs
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.cache
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.lref
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\MainWindow.baml
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.g.resources
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.Properties.Resources.resources
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.GenerateResource.cache
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.CoreCompileInputs.cache
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.exe
+C:\Users\makso\Desktop\Кс работы\KursovaArhiv\KursovaArhiv\obj\Debug\KursovaArhiv.pdb
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\bin\Debug\KursovaArhiv.exe.config
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\bin\Debug\KursovaArhiv.exe
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\bin\Debug\KursovaArhiv.pdb
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv.csprojAssemblyReference.cache
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\MainWindow.g.cs
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\App.g.cs
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.cache
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv_MarkupCompile.lref
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\MainWindow.baml
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv.g.resources
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv.Properties.Resources.resources
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.GenerateResource.cache
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv.csproj.CoreCompileInputs.cache
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv.exe
+C:\Users\makso\Desktop\Work\Python\HuffmanAlgorithm\KursovaArhiv\obj\Debug\KursovaArhiv.pdb

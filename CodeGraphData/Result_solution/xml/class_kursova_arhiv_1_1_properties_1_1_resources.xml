@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>KursovaArhiv::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_properties_1_1_resources_1ac949b48ee011e3b62ff3e00523ba29af" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager KursovaArhiv.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" line="27" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_properties_1_1_resources_1aa1bf41ec5bfd51f57a0f32837f61c26c" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo KursovaArhiv.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" line="29" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_properties_1_1_resources_1a0e1a3b405567dc0cb9c8e4073121589b" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager KursovaArhiv.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Возвращает кэшированный экземпляр ResourceManager, использованный этим классом. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" line="39" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_properties_1_1_resources_1aaed8238fe6d54e1797ecb219b2ea3381" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo KursovaArhiv.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Перезаписывает свойство CurrentUICulture текущего потока для всех обращений к ресурсу с помощью этого класса ресурса со строгой типизацией. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" line="54" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_properties_1_1_resources_1abcac977f881c66721c1197fcfab53676" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KursovaArhiv.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" line="32" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Класс ресурса со строгой типизацией для поиска локализованных строк и т.д. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="22">
+        <label>KursovaArhiv.Properties.Resources</label>
+        <link refid="class_kursova_arhiv_1_1_properties_1_1_resources"/>
+        <childnode refid="22" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" line="25" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_properties_1_1_resources_1aaed8238fe6d54e1797ecb219b2ea3381" prot="package" virt="non-virtual"><scope>KursovaArhiv::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_kursova_arhiv_1_1_properties_1_1_resources_1aa1bf41ec5bfd51f57a0f32837f61c26c" prot="private" virt="non-virtual"><scope>KursovaArhiv::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_kursova_arhiv_1_1_properties_1_1_resources_1ac949b48ee011e3b62ff3e00523ba29af" prot="private" virt="non-virtual"><scope>KursovaArhiv::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_kursova_arhiv_1_1_properties_1_1_resources_1a0e1a3b405567dc0cb9c8e4073121589b" prot="package" virt="non-virtual"><scope>KursovaArhiv::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_kursova_arhiv_1_1_properties_1_1_resources_1abcac977f881c66721c1197fcfab53676" prot="package" virt="non-virtual"><scope>KursovaArhiv::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

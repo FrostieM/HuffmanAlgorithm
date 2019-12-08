@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree" kind="class" prot="package">
+    <compoundname>KursovaArhiv::Model::HuffmanAlgorithmTree</compoundname>
+    <innerclass refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code" prot="private">KursovaArhiv::Model::HuffmanAlgorithmTree::FreqAndCode</innerclass>
+    <innerclass refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node" prot="package">KursovaArhiv::Model::HuffmanAlgorithmTree::Node</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1acc84e5b5f00613664bf021006b7c3eaf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref></type>
+        <definition>Node KursovaArhiv.Model.HuffmanAlgorithmTree._root</definition>
+        <argsstring></argsstring>
+        <name>_root</name>
+        <initializer>= new <ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="65" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a7b48c2f5edc6be8fea64b8cb5276f45a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref></type>
+        <definition>Node KursovaArhiv.Model.HuffmanAlgorithmTree._currentRoot</definition>
+        <argsstring></argsstring>
+        <name>_currentRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="66" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1afce72f751c255f7015b855c6327f7717" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; <ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref> &gt;</type>
+        <definition>readonly List&lt;Node&gt; KursovaArhiv.Model.HuffmanAlgorithmTree._nodes</definition>
+        <argsstring></argsstring>
+        <name>_nodes</name>
+        <initializer>= new List&lt;<ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="67" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1ab192f5c8d9c546ee028fe99515192d96" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; char, <ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code" kindref="compound">FreqAndCode</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;char, FreqAndCode&gt; KursovaArhiv.Model.HuffmanAlgorithmTree._frequencies</definition>
+        <argsstring></argsstring>
+        <name>_frequencies</name>
+        <initializer>= new Dictionary&lt;char, <ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code" kindref="compound">FreqAndCode</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="68" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a4de6f9dc4d9e203e03c79a3930ec683c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.HuffmanAlgorithmTree.Build</definition>
+        <argsstring>(Dictionary&lt; char, long &gt; symbols)</argsstring>
+        <name>Build</name>
+        <param>
+          <type>Dictionary&lt; char, long &gt;</type>
+          <declname>symbols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="70" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="70" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a3c36c1c6fec8e7d67dfb0b9a07c4c4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; bool &gt;</type>
+        <definition>List&lt;bool&gt; KursovaArhiv.Model.HuffmanAlgorithmTree.Encode</definition>
+        <argsstring>(IEnumerable&lt; byte &gt; sourceStr)</argsstring>
+        <name>Encode</name>
+        <param>
+          <type>IEnumerable&lt; byte &gt;</type>
+          <declname>sourceStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="116" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="116" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a7ab6b8cd083360fffe22db0ccd2f1894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>StringBuilder</type>
+        <definition>StringBuilder KursovaArhiv.Model.HuffmanAlgorithmTree.Decode</definition>
+        <argsstring>(byte[] bytes, long fileSize)</argsstring>
+        <name>Decode</name>
+        <param>
+          <type>byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>fileSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="133" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="133" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1aa36eef1b6103eb24e2855a82a65aa20a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KursovaArhiv.Model.HuffmanAlgorithmTree.SortTree</definition>
+        <argsstring>()</argsstring>
+        <name>SortTree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="80" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="80" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1aec27e0c82eded7732e724ee2de102d85" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool KursovaArhiv.Model.HuffmanAlgorithmTree.IsLeaf</definition>
+        <argsstring>(Node node)</argsstring>
+        <name>IsLeaf</name>
+        <param>
+          <type><ref refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="171" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="171" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>KursovaArhiv.Model.HuffmanAlgorithmTree</label>
+        <link refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>_root</edgelabel>
+          <edgelabel>_currentRoot</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>KursovaArhiv.Model.HuffmanAlgorithmTree.Node</label>
+        <link refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="11" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="10" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a7b48c2f5edc6be8fea64b8cb5276f45a" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>_currentRoot</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1ab192f5c8d9c546ee028fe99515192d96" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>_frequencies</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1afce72f751c255f7015b855c6327f7717" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>_nodes</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1acc84e5b5f00613664bf021006b7c3eaf" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>_root</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a4de6f9dc4d9e203e03c79a3930ec683c" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>Build</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a7ab6b8cd083360fffe22db0ccd2f1894" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>Decode</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1a3c36c1c6fec8e7d67dfb0b9a07c4c4a8" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>Encode</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1aec27e0c82eded7732e724ee2de102d85" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>IsLeaf</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1aa36eef1b6103eb24e2855a82a65aa20a" prot="private" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree</scope><name>SortTree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

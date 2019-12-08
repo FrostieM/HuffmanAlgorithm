@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code" kind="class" prot="private">
+    <compoundname>KursovaArhiv::Model::HuffmanAlgorithmTree::FreqAndCode</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code_1a04bf2c126f4a6d58dc689f258cdaf66f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>long</type>
+        <definition>long KursovaArhiv.Model.HuffmanAlgorithmTree.FreqAndCode.Frequencies</definition>
+        <argsstring></argsstring>
+        <name>Frequencies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="55" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code_1adec09024a3a14bc83d3f4260f18e07a8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool[]</type>
+        <definition>bool [] KursovaArhiv.Model.HuffmanAlgorithmTree.FreqAndCode.Code</definition>
+        <argsstring></argsstring>
+        <name>Code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="56" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code_1a4592891ceb52588524718700a815ab13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KursovaArhiv.Model.HuffmanAlgorithmTree.FreqAndCode.FreqAndCode</definition>
+        <argsstring>(long freq, bool[] code)</argsstring>
+        <name>FreqAndCode</name>
+        <param>
+          <type>long</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>bool[]</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="58" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="58" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="54" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="53" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code_1adec09024a3a14bc83d3f4260f18e07a8" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree::FreqAndCode</scope><name>Code</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code_1a4592891ceb52588524718700a815ab13" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree::FreqAndCode</scope><name>FreqAndCode</name></member>
+      <member refid="class_kursova_arhiv_1_1_model_1_1_huffman_algorithm_tree_1_1_freq_and_code_1a04bf2c126f4a6d58dc689f258cdaf66f" prot="public" virt="non-virtual"><scope>KursovaArhiv::Model::HuffmanAlgorithmTree::FreqAndCode</scope><name>Frequencies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

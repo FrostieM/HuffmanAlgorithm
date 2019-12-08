@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_assembly_info_8cs" kind="file">
+    <compoundname>AssemblyInfo.cs</compoundname>
+    <innernamespace refid="namespace_system_1_1_reflection">System::Reflection</innernamespace>
+    <innernamespace refid="namespace_system_1_1_resources">System::Resources</innernamespace>
+    <innernamespace refid="namespace_system_1_1_runtime_1_1_compiler_services">System::Runtime::CompilerServices</innernamespace>
+    <innernamespace refid="namespace_system_1_1_runtime_1_1_interop_services">System::Runtime::InteropServices</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Reflection;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Resources;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Runtime.CompilerServices;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Runtime.InteropServices;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Общие<sp/>сведения<sp/>об<sp/>этой<sp/>сборке<sp/>предоставляются<sp/>следующим<sp/>набором</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>набора<sp/>атрибутов.<sp/>Измените<sp/>значения<sp/>этих<sp/>атрибутов,<sp/>чтобы<sp/>изменить<sp/>сведения,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>связанные<sp/>со<sp/>сборкой.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[assembly:<sp/>AssemblyTitle(</highlight><highlight class="stringliteral">&quot;KursovaArhiv&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">[assembly:<sp/>AssemblyDescription(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">[assembly:<sp/>AssemblyConfiguration(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">[assembly:<sp/>AssemblyCompany(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">[assembly:<sp/>AssemblyProduct(</highlight><highlight class="stringliteral">&quot;KursovaArhiv&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">[assembly:<sp/>AssemblyCopyright(</highlight><highlight class="stringliteral">&quot;Copyright<sp/>©<sp/><sp/>2018&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">[assembly:<sp/>AssemblyTrademark(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">[assembly:<sp/>AssemblyCulture(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Установка<sp/>значения<sp/>False<sp/>для<sp/>параметра<sp/>ComVisible<sp/>делает<sp/>типы<sp/>в<sp/>этой<sp/>сборке<sp/>невидимыми</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>для<sp/>компонентов<sp/>COM.<sp/>Если<sp/>необходимо<sp/>обратиться<sp/>к<sp/>типу<sp/>в<sp/>этой<sp/>сборке<sp/>через</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>COM,<sp/>задайте<sp/>атрибуту<sp/>ComVisible<sp/>значение<sp/>TRUE<sp/>для<sp/>этого<sp/>типа.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">[assembly:<sp/>ComVisible(</highlight><highlight class="keyword">false</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//Чтобы<sp/>начать<sp/>создание<sp/>локализуемых<sp/>приложений,<sp/>задайте</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//&lt;UICulture&gt;CultureYouAreCodingWith&lt;/UICulture&gt;<sp/>в<sp/>файле<sp/>.csproj</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//внутри<sp/>&lt;PropertyGroup&gt;.<sp/><sp/>Например,<sp/>если<sp/>используется<sp/>английский<sp/>США</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//в<sp/>своих<sp/>исходных<sp/>файлах<sp/>установите<sp/>&lt;UICulture&gt;<sp/>в<sp/>en-US.<sp/><sp/>Затем<sp/>отмените<sp/>преобразование<sp/>в<sp/>комментарий</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//атрибута<sp/>NeutralResourceLanguage<sp/>ниже.<sp/><sp/>Обновите<sp/>&quot;en-US&quot;<sp/>в</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//строка<sp/>внизу<sp/>для<sp/>обеспечения<sp/>соответствия<sp/>настройки<sp/>UICulture<sp/>в<sp/>файле<sp/>проекта.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//[assembly:<sp/>NeutralResourcesLanguage(&quot;en-US&quot;,<sp/>UltimateResourceFallbackLocation.Satellite)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">[assembly:<sp/>ThemeInfo(</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>ResourceDictionaryLocation.None,<sp/></highlight><highlight class="comment">//где<sp/>расположены<sp/>словари<sp/>ресурсов<sp/>по<sp/>конкретным<sp/>тематикам</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(используется,<sp/>если<sp/>ресурс<sp/>не<sp/>найден<sp/>на<sp/>странице,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>или<sp/>в<sp/>словарях<sp/>ресурсов<sp/>приложения)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>ResourceDictionaryLocation.SourceAssembly<sp/></highlight><highlight class="comment">//где<sp/>расположен<sp/>словарь<sp/>универсальных<sp/>ресурсов</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(используется,<sp/>если<sp/>ресурс<sp/>не<sp/>найден<sp/>на<sp/>странице,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>в<sp/>приложении<sp/>или<sp/>в<sp/>каких-либо<sp/>словарях<sp/>ресурсов<sp/>для<sp/>конкретной<sp/>темы)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Сведения<sp/>о<sp/>версии<sp/>сборки<sp/>состоят<sp/>из<sp/>следующих<sp/>четырех<sp/>значений:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Основной<sp/>номер<sp/>версии</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Дополнительный<sp/>номер<sp/>версии</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Номер<sp/>сборки</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>Редакция</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Можно<sp/>задать<sp/>все<sp/>значения<sp/>или<sp/>принять<sp/>номер<sp/>сборки<sp/>и<sp/>номер<sp/>редакции<sp/>по<sp/>умолчанию.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>используя<sp/>&quot;*&quot;,<sp/>как<sp/>показано<sp/>ниже:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[assembly:<sp/>AssemblyVersion(&quot;1.0.*&quot;)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">[assembly:<sp/>AssemblyVersion(</highlight><highlight class="stringliteral">&quot;1.0.0.0&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">[assembly:<sp/>AssemblyFileVersion(</highlight><highlight class="stringliteral">&quot;1.0.0.0&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Properties/AssemblyInfo.cs"/>
+  </compounddef>
+</doxygen>

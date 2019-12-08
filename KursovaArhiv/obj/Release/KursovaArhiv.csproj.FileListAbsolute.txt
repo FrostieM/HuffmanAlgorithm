@@ -1,0 +1,30 @@
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\bin\Release\KursovaArhiv.exe.config
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\bin\Release\KursovaArhiv.exe
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\bin\Release\KursovaArhiv.pdb
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.csprojAssemblyReference.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\MainWindow.g.cs
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\App.g.cs
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv_MarkupCompile.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv_MarkupCompile.lref
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\MainWindow.baml
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.g.resources
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.Properties.Resources.resources
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.csproj.GenerateResource.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.csproj.CoreCompileInputs.cache
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.exe
+C:\Users\Frost\Desktop\VisualS projects\C# projects\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.pdb
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\bin\Release\KursovaArhiv.exe.config
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\bin\Release\KursovaArhiv.exe
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\bin\Release\KursovaArhiv.pdb
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.csprojAssemblyReference.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv_MarkupCompile.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv_MarkupCompile.lref
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.g.resources
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.Properties.Resources.resources
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.csproj.GenerateResource.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.csproj.CoreCompileInputs.cache
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.exe
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\KursovaArhiv.pdb
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\MainWindow.g.cs
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\App.g.cs
+C:\Users\makso\OneDrive\Рабочий стол\C#\KursovaArhiv\KursovaArhiv\obj\Release\MainWindow.baml

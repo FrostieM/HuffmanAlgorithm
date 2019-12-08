@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ab47a0ab042e24eebf2a2975d3186573" kind="dir">
+    <compoundname>KursovaArhiv</compoundname>
+    <innerdir refid="dir_4e365dde5884c74c5408158df870f34a">KursovaArhiv/Model</innerdir>
+    <innerdir refid="dir_96a2c65f9a4ff15775f4c5317cf48fdd">KursovaArhiv/Properties</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/"/>
+  </compounddef>
+</doxygen>

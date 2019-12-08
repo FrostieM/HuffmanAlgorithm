@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_classes_1_1_execute_params" kind="class" prot="public">
+    <compoundname>KursovaArhiv::Classes::ExecuteParams</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_execute_params_1a9daa7793f6e6edf7cf2b01a473cefe51" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string KursovaArhiv.Classes.ExecuteParams.Str</definition>
+        <argsstring></argsstring>
+        <name>Str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" line="11" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_execute_params_1a98e77fd9fa9d692247fc99a17f7e5900" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double KursovaArhiv.Classes.ExecuteParams.Max</definition>
+        <argsstring></argsstring>
+        <name>Max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" line="12" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_execute_params_1acbaab3a47ffcdb2ffdcbd11bbc9be61f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double KursovaArhiv.Classes.ExecuteParams.CurrentValue</definition>
+        <argsstring></argsstring>
+        <name>CurrentValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" line="13" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_execute_params_1a745c5aee8ed11930b56d68de35334ba2" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool KursovaArhiv.Classes.ExecuteParams.Start</definition>
+        <argsstring></argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" line="14" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" line="10" column="1" bodyfile="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/ExecuteParams.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_execute_params_1acbaab3a47ffcdb2ffdcbd11bbc9be61f" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::ExecuteParams</scope><name>CurrentValue</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_execute_params_1a98e77fd9fa9d692247fc99a17f7e5900" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::ExecuteParams</scope><name>Max</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_execute_params_1a745c5aee8ed11930b56d68de35334ba2" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::ExecuteParams</scope><name>Start</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_execute_params_1a9daa7793f6e6edf7cf2b01a473cefe51" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::ExecuteParams</scope><name>Str</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

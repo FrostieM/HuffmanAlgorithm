@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4e365dde5884c74c5408158df870f34a" kind="dir">
+    <compoundname>KursovaArhiv/Model</compoundname>
+    <innerfile refid="_coder_8cs">Coder.cs</innerfile>
+    <innerfile refid="_execute_params_8cs">ExecuteParams.cs</innerfile>
+    <innerfile refid="_huffman_algorithm_tree_8cs">HuffmanAlgorithmTree.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/makso/Desktop/Work/Python/HuffmanAlgorithm/KursovaArhiv/Model/"/>
+  </compounddef>
+</doxygen>

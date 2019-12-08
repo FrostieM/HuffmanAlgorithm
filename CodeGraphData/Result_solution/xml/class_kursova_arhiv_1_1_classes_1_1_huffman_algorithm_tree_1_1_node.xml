@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node" kind="class" prot="package">
+    <compoundname>KursovaArhiv::Classes::HuffmanAlgorithmTree::Node</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1ad24e78139eadaf4fa518d4faf16a1871" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>char</type>
+        <definition>char KursovaArhiv.Classes.HuffmanAlgorithmTree.Node.Symbol</definition>
+        <argsstring></argsstring>
+        <name>Symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="21" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1a57c3b218324a25fbc572decba5d1434b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint KursovaArhiv.Classes.HuffmanAlgorithmTree.Node.Frequence</definition>
+        <argsstring></argsstring>
+        <name>Frequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="22" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1aa6abbcf6aee982b7a2dfb87b23fc3b07" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref></type>
+        <definition>Node KursovaArhiv.Classes.HuffmanAlgorithmTree.Node.Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="23" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1a0db3f54a2e780e44e49052790f2d0b5d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node" kindref="compound">Node</ref></type>
+        <definition>Node KursovaArhiv.Classes.HuffmanAlgorithmTree.Node.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="24" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1addfce4d3b25bc859f0f52a14e91d66de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; bool &gt;</type>
+        <definition>List&lt;bool&gt; KursovaArhiv.Classes.HuffmanAlgorithmTree.Node.Movement</definition>
+        <argsstring>(char symbol, List&lt; bool &gt; data)</argsstring>
+        <name>Movement</name>
+        <param>
+          <type>char</type>
+          <declname>symbol</declname>
+        </param>
+        <param>
+          <type>List&lt; bool &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Происходит поиск символа в дереве, и создание его кодировки битов </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbol</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="32" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="32" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Узел, который позволяет создавать дерево </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" line="20" column="1" bodyfile="C:/Users/makso/Desktop/CloudSave/KursovaArhiv/KursovaArhiv/Model/HuffmanAlgorithmTree.cs" bodystart="19" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1a57c3b218324a25fbc572decba5d1434b" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::HuffmanAlgorithmTree::Node</scope><name>Frequence</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1a0db3f54a2e780e44e49052790f2d0b5d" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::HuffmanAlgorithmTree::Node</scope><name>Left</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1addfce4d3b25bc859f0f52a14e91d66de" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::HuffmanAlgorithmTree::Node</scope><name>Movement</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1aa6abbcf6aee982b7a2dfb87b23fc3b07" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::HuffmanAlgorithmTree::Node</scope><name>Right</name></member>
+      <member refid="class_kursova_arhiv_1_1_classes_1_1_huffman_algorithm_tree_1_1_node_1ad24e78139eadaf4fa518d4faf16a1871" prot="public" virt="non-virtual"><scope>KursovaArhiv::Classes::HuffmanAlgorithmTree::Node</scope><name>Symbol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
